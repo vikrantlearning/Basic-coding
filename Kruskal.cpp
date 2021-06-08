@@ -41,8 +41,8 @@ int main()
     }
     for(int i=0;i<m;i++)
     par[i]=-1;
-    //sort(arr,m);
-    /*for(int i=0;i<m;i++)
+    sort(arr,m);
+    for(int i=0;i<m;i++)
     {
         int a=find(arr[i].a);
         int b=find(arr[i].b);
@@ -52,7 +52,7 @@ int main()
             sum=sum+arr[i].w;
             cout<<sum<<"\n";
         }
-    }*/
+    }
     cout<<sum;
     return 0;
 }
