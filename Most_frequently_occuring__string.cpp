@@ -1,4 +1,4 @@
-//mostfrequently occuring
+//mostfrequently occuring string with word whose first occurence occurs last
 string mostFrequentWord(string arr[], int n)
     {
         // code here
