@@ -1,4 +1,6 @@
 //Tree top view
+//first map is of node and its horizontal dist
+//2nd map is for horizontal dist and node->data
 vector<int> topView(Node *root)
     {
         //Your code here
