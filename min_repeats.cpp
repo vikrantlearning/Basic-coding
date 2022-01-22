@@ -11,6 +11,7 @@ int minRepeats(string A, string B) {
           int j=i;
           count=1;
           int k=0;
+          //checking whther A exists in B Example A=abcd, B=cdabcdab , abcdabcdabcd(3 times A)
           while(k<n&&A[j]==B[k])
           {
               if(k==(n-1))
