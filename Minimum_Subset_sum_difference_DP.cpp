@@ -1,4 +1,7 @@
 .//Minimum subset sum Difference
+	//Logic is Two subsets S1,S2 whose sum S1+S2=Array total sum
+	//Ques. Find S1-S2 such that it is minimum
+	//Hence We have to find minmum Array_totaL_Sum-2S1(where S1 is the smaller set)
 int minSumDiff(int arr[],int n,int sum)
     {
         int dp[n+1][sum+1];
